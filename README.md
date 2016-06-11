@@ -32,7 +32,7 @@ Download a
     wget http://s3.amazonaws.com/mbrainz/datomic-mbrainz-1968-1973-backup-2015-02-11.tar -O mbrainz.tar
     tar -xvf mbrainz.tar
 
- or a more complete[subset of mbrainz database](http://s3.amazonaws.com/mbrainz/datomic-mbrainz-backup-20130611.tar)
+ or a more complete [subset of mbrainz database](http://s3.amazonaws.com/mbrainz/datomic-mbrainz-backup-20130611.tar)
 
 	# 2.8 GB, md5 4e7d254c77600e68e9dc71b1a2785c53
     wget http://s3.amazonaws.com/mbrainz/datomic-mbrainz-backup-20130611.tar
@@ -41,7 +41,7 @@ Download a
 ### Restore the db
 
     # prints progress -- ~1,000 segments in restore
-    bin/datomic restore-db file:///path/to/backup/mbrainz-1968-1973 datomic:free://localhost:4334/mbrainz-1968-1973
+    bin/datomic restore-db file:///path/to/backup/db_directory datomic:free://localhost:4334/mbrainz (or mbrainz-1968-1973)
 
 ### db Schema
 [Entities schema](https://github.com/Datomic/mbrainz-sample/wiki/Schema)
