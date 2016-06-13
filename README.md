@@ -77,3 +77,5 @@ We would like to thank the MusicBrainz project for defining and compiling a grea
 [Github sample](https://github.com/Datomic/mbrainz-sample)
 
 [Datalog querying tutorial](http://www.learndatalogtoday.org/)
+
+[Conversations with datomic](http://gigasquidsoftware.com/blog/2015/08/15/conversations-with-datomic/)
